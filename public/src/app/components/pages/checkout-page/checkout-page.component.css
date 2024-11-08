@@ -1,0 +1,101 @@
+/* checkout-page.component.css */
+
+/* Overall container styling */
+.container {
+    padding: 1rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Title styling */
+  app-title {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  /* Not Found component styling */
+  app-not-found {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  /* List styling */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  li:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Image styling */
+  img {
+    max-width: 80px;  /* Set a maximum width for images */
+    max-height: 80px; /* Set a maximum height for images */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  /* Link styling */
+  a {
+    font-size: 1rem;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Select dropdown styling */
+  select {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Price display styling */
+  .total-price {
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  /* Remove button styling */
+  .remove-button {
+    background-color: #ff4d4d; /* Red color for remove button */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .remove-button:hover {
+    background-color: #e60000; /* Darker red on hover */
+  }
+  
+  /* Checkout summary styling */
+  .checkout {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
